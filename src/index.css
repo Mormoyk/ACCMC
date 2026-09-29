@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #040915;
+    color: #e2e8f0;
+    overflow-x: hidden;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom Math Blueprint Grid Background */
+.math-grid-bg {
+  background-color: #040915;
+  background-image: 
+    linear-gradient(to right, rgba(30, 58, 138, 0.12) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(30, 58, 138, 0.12) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.math-grid-dense {
+  background-color: #030712;
+  background-image: 
+    linear-gradient(to right, rgba(56, 189, 248, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(56, 189, 248, 0.08) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Custom scrollbar for modern sleek look */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #040915;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e3a8a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
+}
+
+/* Subtle glow effects */
+.glow-blue {
+  box-shadow: 0 0 40px -10px rgba(37, 99, 235, 0.35);
+}
+
+.glow-cyan {
+  box-shadow: 0 0 35px -8px rgba(6, 182, 212, 0.3);
+}
+
+.glow-card {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glow-card:hover {
+  box-shadow: 0 10px 30px -10px rgba(30, 64, 175, 0.4);
+  transform: translateY(-2px);
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "Adamjee Cantonment College Mathematics Club",
+  "description": "Official dynamic web portal for Adamjee Cantonment College Mathematics Club (ACCMC), featuring member registration, sectors, events, resources, and Google Form integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
